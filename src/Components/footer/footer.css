@@ -1,0 +1,21 @@
+.footer__container {
+    padding: 20px;
+}
+
+.footer__text {
+    color: rgba(255,255,255, 1);
+    font-size: 30px;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer__text div {
+    margin-left: 20px;
+    transition: color 0.2s linear;
+    cursor: pointer;
+}
+
+.footer__text div:hover {
+    color: #dd3434;
+}
